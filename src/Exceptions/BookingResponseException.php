@@ -1,12 +1,12 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Exceptions;
+namespace DJStarCOM\BookingComSDK\Exceptions;
 
 use Exception;
 
 /**
  * Class BookingResponseException
- * @package djstarcom\BookingComSDK\Exceptions
+ * @package DJStarCOM\BookingComSDK\Exceptions
  */
 class BookingResponseException extends Exception
 {

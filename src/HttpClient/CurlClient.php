@@ -1,14 +1,14 @@
 <?php
 
-namespace djstarcom\BookingComSDK\HttpClient;
+namespace DJStarCOM\BookingComSDK\HttpClient;
 
 use Curl\Curl;
-use djstarcom\BookingComSDK\Exceptions\HttpClientException;
+use DJStarCOM\BookingComSDK\Exceptions\HttpClientException;
 use ErrorException;
 
 /**
  * Class HttpClient
- * @package djstarcom\BookingComSDK\HttpClient
+ * @package DJStarCOM\BookingComSDK\HttpClient
  */
 class CurlClient implements HttpClientInterface
 {

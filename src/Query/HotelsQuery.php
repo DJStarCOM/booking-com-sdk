@@ -1,12 +1,12 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Query;
+namespace DJStarCOM\BookingComSDK\Query;
 
-use djstarcom\BookingComSDK\Models\Hotel;
+use DJStarCOM\BookingComSDK\Models\Hotel;
 
 /**
  * Class HotelsQuery
- * @package djstarcom\BookingComSDK\Query
+ * @package DJStarCOM\BookingComSDK\Query
  */
 class HotelsQuery extends Query
 {

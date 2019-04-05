@@ -1,10 +1,10 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Models;
+namespace DJStarCOM\BookingComSDK\Models;
 
 /**
  * Class BookingDetails
- * @package djstarcom\BookingComSDK\Models
+ * @package DJStarCOM\BookingComSDK\Models
  */
 class BookingDetails extends Model
 {

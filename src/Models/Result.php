@@ -1,6 +1,6 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Models;
+namespace DJStarCOM\BookingComSDK\Models;
 
 use Countable;
 use Iterator;
@@ -8,7 +8,7 @@ use function count;
 
 /**
  * Class Result
- * @package djstarcom\BookingComSDK\Models
+ * @package DJStarCOM\BookingComSDK\Models
  */
 class Result implements Iterator, Countable
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace djstarcom\BookingComSDK;
+namespace DJStarCOM\BookingComSDK;
 
-use djstarcom\BookingComSDK\HttpClient\HttpClientInterface;
-use djstarcom\BookingComSDK\Models\Result;
-use djstarcom\BookingComSDK\Query\Query;
+use DJStarCOM\BookingComSDK\HttpClient\HttpClientInterface;
+use DJStarCOM\BookingComSDK\Models\Result;
+use DJStarCOM\BookingComSDK\Query\Query;
 
 /**
  * Class Booking
- * @package djstarcom\BookingComSDK
+ * @package DJStarCOM\BookingComSDK
  */
 class Booking
 {

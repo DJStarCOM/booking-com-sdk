@@ -1,9 +1,9 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Query;
+namespace DJStarCOM\BookingComSDK\Query;
 
 use DateTime;
-use djstarcom\BookingComSDK\Models\HotelAvailability;
+use DJStarCOM\BookingComSDK\Models\HotelAvailability;
 
 class HotelAvailabilityQuery extends Query
 {

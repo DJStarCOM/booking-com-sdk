@@ -1,11 +1,11 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Models;
+namespace DJStarCOM\BookingComSDK\Models;
 
 use stdClass;
 
 /**
- * @package djstarcom\BookingComSDK\Models
+ * @package DJStarCOM\BookingComSDK\Models
  */
 class HotelAvailability extends Model
 {

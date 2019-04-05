@@ -1,8 +1,8 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Query;
+namespace DJStarCOM\BookingComSDK\Query;
 
-use djstarcom\BookingComSDK\Models\Autocomplete;
+use DJStarCOM\BookingComSDK\Models\Autocomplete;
 
 class AutocompleteQuery extends Query
 {

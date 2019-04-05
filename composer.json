@@ -1,5 +1,5 @@
 {
-    "name": "djstarcom/booking-com-sdk",
+    "name": "DJStarCOM/booking-com-sdk",
     "type": "library",
     "description": "Booking.com API SDK",
     "license": "MIT",
@@ -22,7 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "djstarcom\\BookingComSDK\\": "src"
+            "DJStarCOM\\BookingComSDK\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "DJStarCOM\\BookingComSDK\\" : "tests"
         }
     }
 }

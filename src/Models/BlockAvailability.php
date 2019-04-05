@@ -1,9 +1,9 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Models;
+namespace DJStarCOM\BookingComSDK\Models;
 
 /**
- * @package djstarcom\BookingComSDK\Models
+ * @package DJStarCOM\BookingComSDK\Models
  */
 class BlockAvailability extends Model
 {

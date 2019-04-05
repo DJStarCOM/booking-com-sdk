@@ -1,6 +1,6 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Models;
+namespace DJStarCOM\BookingComSDK\Models;
 
 class Autocomplete extends Model
 {

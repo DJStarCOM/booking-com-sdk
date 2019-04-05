@@ -1,10 +1,10 @@
 <?php
 
-namespace djstarcom\BookingComSDK\HttpClient;
+namespace DJStarCOM\BookingComSDK\HttpClient;
 
 /**
  * Interface HttpClientInterface
- * @package djstarcom\BookingComSDK\HttpClient
+ * @package DJStarCOM\BookingComSDK\HttpClient
  */
 interface HttpClientInterface
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace djstarcom\BookingComSDK;
+namespace DJStarCOM\BookingComSDK;
 
-use djstarcom\BookingComSDK\HttpClient\CurlClient;
-use djstarcom\BookingComSDK\Models\Result;
-use djstarcom\BookingComSDK\Query\Query;
+use DJStarCOM\BookingComSDK\HttpClient\CurlClient;
+use DJStarCOM\BookingComSDK\Models\Result;
+use DJStarCOM\BookingComSDK\Query\Query;
 use ErrorException;
 
 /**
  * Class BookingFacade
- * @package djstarcom\BookingComSDK
+ * @package DJStarCOM\BookingComSDK
  */
 class BookingFacade
 {

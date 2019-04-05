@@ -1,18 +1,18 @@
 <?php
 
-namespace djstarcom\BookingComSDK\Query;
+namespace DJStarCOM\BookingComSDK\Query;
 
 use function count;
-use djstarcom\BookingComSDK\Exceptions\BookingResponseException;
-use djstarcom\BookingComSDK\Exceptions\ModelException;
-use djstarcom\BookingComSDK\HttpClient\HttpClientInterface;
-use djstarcom\BookingComSDK\Models\Model;
-use djstarcom\BookingComSDK\Models\Result;
+use DJStarCOM\BookingComSDK\Exceptions\BookingResponseException;
+use DJStarCOM\BookingComSDK\Exceptions\ModelException;
+use DJStarCOM\BookingComSDK\HttpClient\HttpClientInterface;
+use DJStarCOM\BookingComSDK\Models\Model;
+use DJStarCOM\BookingComSDK\Models\Result;
 use function is_array;
 
 /**
  * Class QueryAbstract
- * @package djstarcom\BookingComSDK\Query
+ * @package DJStarCOM\BookingComSDK\Query
  */
 abstract class Query
 {
