@@ -1,0 +1,23 @@
+{
+    "name": "djstarcom/booking-com-sdk",
+    "type": "library",
+    "description": "Booking.com API SDK",
+    "license": "MIT",
+    "version": "2.1.4",
+    "authors": [
+        {
+            "name": "Stanislav Tsepeniuk",
+            "email": "s.tsepeniuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "php-curl-class/php-curl-class": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "djstarcom\\BookingComSDK\\": "src"
+        }
+    }
+}
