@@ -235,5 +235,4 @@ class HotelAvailability extends Model
             'cheapest_breakfast_rate' => 'object',
         ];
     }
-
 }

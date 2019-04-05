@@ -2,7 +2,6 @@
 
 namespace djstarcom\BookingComSDK\Models;
 
-
 class Autocomplete extends Model
 {
     public const TYPE_AIRPORT = 'airport';
@@ -242,7 +241,8 @@ class Autocomplete extends Model
     }
 
     /**
-     * City ufi for destination that is located inside a city. It will not be showed if the destination itself is a city.
+     * City ufi for destination that is located inside a city.
+     * It will not be showed if the destination itself is a city.
      */
     public function getCityUfi(): string
     {

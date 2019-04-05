@@ -1097,5 +1097,4 @@ class BlockAvailabilityQuery extends Query
     {
         return BlockAvailability::class;
     }
-
 }

@@ -17,7 +17,9 @@ class AutocompleteQuery extends Query
     protected static $uri = '/autocomplete';
 
     /**
-     * Search text. It is part or full name of a hotel, another destination or a theme. It must be at least 3 characters long.
+     * Search text.
+     * It is part or full name of a hotel, another destination or a theme.
+     * It must be at least 3 characters long.
      *
      * @var string
      */
@@ -38,7 +40,8 @@ class AutocompleteQuery extends Query
     protected $affiliate_id;
 
     /**
-     * Specify here what extra items of the result should be included. See the endpoint description for more detailed information about each extra.
+     * Specify here what extra items of the result should be included.
+     * See the endpoint description for more detailed information about each extra.
      *
      * @var array
      */

@@ -2,7 +2,6 @@
 
 namespace djstarcom\BookingComSDK\Models;
 
-
 use stdClass;
 
 class ProcessBooking extends Model
@@ -23,7 +22,8 @@ class ProcessBooking extends Model
     protected $pincode;
 
     /**
-     * Link to the google maps static map for this hotel's location. It is only displayed for Windows 8.0 affiliate ids.
+     * Link to the google maps static map for this hotel's location.
+     * It is only displayed for Windows 8.0 affiliate ids.
      * display conditionaffiliate_id=000000
      *
      * @var string
@@ -97,5 +97,4 @@ class ProcessBooking extends Model
             'hotel_contact_info' => 'object',
         ];
     }
-
 }

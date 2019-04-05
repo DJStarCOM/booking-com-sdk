@@ -78,5 +78,4 @@ class Hotel extends Model
             'hotel_id'   => 'integer',
         ];
     }
-
 }

@@ -1138,5 +1138,4 @@ class HotelAvailabilityQuery extends Query
     {
         return HotelAvailability::class;
     }
-
 }

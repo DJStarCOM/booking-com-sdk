@@ -32,7 +32,8 @@ class ProcessBookingQuery extends Query
      *
      * possible values.
      * There is a long list of possible values for this parameter.
-     * Please see Values for countries (https://developers.booking.com/api/commercial/index.html?page_url=possible-values),
+     * Please see Values for countries:
+     * https://developers.booking.com/api/commercial/index.html?page_url=possible-values
      * languages, airports, currencies for the full list.
      *
      * @var string required
@@ -381,7 +382,8 @@ class ProcessBookingQuery extends Query
      * A comma-separated list of smoking preferences, given in same order as room_ids or block_ids,
      * taking into account their quantities. If only one smoking preference is supplied,
      * it applies to all rooms/blocks. Use 0 for no preference, 1 for non-smoking preferred,
-     * 2 for smoking preferred. Please note that it can not be guaranteed that the selected preference will be available.
+     * 2 for smoking preferred.
+     * Please note that it can not be guaranteed that the selected preference will be available.
      * example value 2
      * possible values 0, 1, 2
      *
@@ -1262,5 +1264,4 @@ class ProcessBookingQuery extends Query
     {
         return ProcessBooking::class;
     }
-
 }
