@@ -17,7 +17,7 @@
     },
      "require-dev": {
         "roave/security-advisories": "dev-master",
-        "phpunit/phpunit": "^6.0",
+        "phpunit/phpunit": "^6.0 || ^7.0",
         "squizlabs/php_codesniffer": "^2.4"
     },
     "autoload": {
